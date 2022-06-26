@@ -4,7 +4,7 @@ export const DrawerWidth = 250;
 
 export const Colors = {
   primary: "#5f2c3e",
-  secondary: "#d1adcc",
+  secondary: "#53BF9D",
   success: "#4CAF50",
   info: "#00a2ff",
   danger: "#FF5722",
@@ -22,6 +22,7 @@ export const Colors = {
   dove_gray: "#d5d5d5",
   body_bg: "#f3f6f9",
   light_gray: "rgb(230,230,230)",
+  off_white: "#F2EBE9",
   ///////////////
   // Solid Color
   ///////////////

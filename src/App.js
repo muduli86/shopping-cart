@@ -2,6 +2,8 @@ import { Container } from "@mui/material";
 import { ThemeProvider } from "@mui/system";
 import { useEffect } from "react";
 import Appbar from "./components/appbar";
+import Banner from "./components/banner";
+import Promotions from "./components/promotions";
 import theme from "./styles/theme";
 
 function App() {
@@ -11,12 +13,14 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Container
-        maxWidth='xl'
+        maxWidth="xl"
         sx={{
           background: "#FFF",
         }}
       >
         <Appbar />
+        <Banner />
+        <Promotions />
       </Container>
     </ThemeProvider>
   );
